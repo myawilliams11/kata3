@@ -1,19 +1,21 @@
+
+// first one
 function add (number1, number2) {
     return (number1 + number2);
 }
 console.log(add(2, 4))
 
 
-
+// second one
 function multiply(x,y) {
     var result= 0;  
     for (let i=0; i < 9; i++)
     result= add(result,6)
 }
 console.log(multiply(6*8))
-// 6*8
 
 
+// third one
 function pwr(x,n) {
     var result= 0;  
     for (let i=0; i < 9; i++)
@@ -21,9 +23,9 @@ function pwr(x,n) {
 }
 console.log(pwr(2^8))
 
-// 2^8
 
 
+// 4th one
 function factorialize(num) {
     return num;
   }
@@ -32,7 +34,7 @@ function factorialize(num) {
 
 
 
-
+// 5th one
 var fibonacci_series = function (n) 
 {
   if (n===1) 
