@@ -8,20 +8,25 @@ console.log(add(2, 4))
 
 // second one
 function multiply(x,y) {
-    var result= 0;  
-    for (let i=0; i < 9; i++)
-    return result+= add(result,6)
+    result= 0;  
+    for (let i=0; i < y; i++){
+    result = add(result,x)
 }
-console.log(multiply(6*8))
+return result
+}
+ console.log(multiply(6,8))
+
 
 
 // third one
 function pwr(x,n) {
     var result= 0;  
-    for (let i=0; i < 9; i++)
-    return result+= add(result,2)
+    for (let i=0; i < n; i++){
+    result+= add(result,x)
 }
-console.log(pwr(2^8))
+return result
+}
+console.log(pwr(2,8))
 
 
 
