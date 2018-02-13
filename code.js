@@ -26,7 +26,7 @@ function pwr(x,n) {
 }
 return result
 }
-console.log(pwr(2,8))
+console.log(pwr(2,7))
 
 
 
