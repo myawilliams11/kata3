@@ -20,22 +20,25 @@ return result
 
 // third one
 function pwr(x,n) {
-    var result= 0;  
+    var result= 1;  
     for (let i=0; i < n; i++){
-    result+= add(result,x)
+    result = multiply(result,x)
 }
 return result
 }
-console.log(pwr(2,7))
+console.log(pwr(2,8))
 
 
 
 // 4th one
 function factorialize(num) {
-    return num;
+ var result = 1;
+ for (let i=1; i<=num; i++) {
+   result = multiply(result,i)
+ }
+    return result;
   }
-  factorialize(4);
-  console.log(factorialize(4*3*2*1))
+  console.log(factorialize(4))
 
 
 
